@@ -1,0 +1,168 @@
+@media only screen and (max-width: 1200px) {
+	#contact form {
+		margin-top: 30px;
+	}
+
+	#contact p {
+		text-align: center;
+	}
+
+	#skills img.icon {
+		height: 115px;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	#skills img.icon {
+		height: auto;
+		width: 30%;
+		margin-right: 10px;
+	}
+
+	#about div.pad {
+     padding: 0;
+	}
+
+	section#about {
+		padding-top: 70px;
+	} 
+
+	section#projects {
+		padding-top: 70px;
+	} 
+}
+
+@media only screen and (max-width: 768px) {
+	header .nav {
+		height: 65px;
+	}
+
+	.nav #myLinks {
+  		display: none;
+	}
+
+	header .nav i {
+		display: block !important;
+	}
+
+	header .nav li {
+		display: block;
+		text-align: center;
+    	width: 100%;
+    	display: flex;
+    	flex-wrap: wrap;
+    	justify-content: space-around;
+	}
+
+	header .nav ul {
+		float: right;
+		padding: 0;
+		position: absolute;
+    	top: 0;
+    	left: 0;
+    	background: #333;
+    	right: 0;
+	}
+
+	header .logo {
+		position: absolute;
+		z-index: 999;
+	}
+
+	header .nav #myLinks a {
+		display: block;
+		float: left;
+	}
+
+	/*Burger*/
+
+	header .nav #myLinks a:hover {
+		border: none;
+	}
+
+	header .content h1 {
+		font-size: 60px;
+	}
+	
+	#skills img.big {
+    	margin-top: 20px;
+    	display: block;
+    	width: 100%;
+	}
+
+	#skills div.icons {
+		text-align: center;
+	}
+
+	#skills img.icon {
+		width: 25%;
+		height: auto;
+		margin-right: 12px;
+	}
+
+	#skills div.padl {
+		padding-left: 12px;
+	}
+
+	section#about {
+		padding-top: 80px;
+	}
+
+	#about div.pad {
+		padding: 40px;
+	}
+
+	#about div.padr {
+		padding-right: 15px;
+	}
+
+	section#projects {
+		padding-top: 30px;
+	}
+
+	#projects article {
+		width: 80%;
+		height: auto;
+		margin: auto;
+		margin-bottom: 25px;
+	}
+
+	#projects p {
+		font-size: 30px;
+	}
+
+	footer p {
+		font-size: 16px;
+	}
+
+	footer img {
+		width: 60px;
+	}
+
+}
+
+@media only screen and (max-width: 450px) {
+	header .content h1 {
+		font-size: 55px;
+	}
+
+	#skills p {
+		font-size: 18px;
+	}
+
+	#about p {
+		font-size: 18px;
+	}
+
+	#projects article {
+		width: 100%;
+	}
+
+	footer img {
+		display: none;
+	}
+
+	footer p {
+		font-size: 13px;
+	}
+}
